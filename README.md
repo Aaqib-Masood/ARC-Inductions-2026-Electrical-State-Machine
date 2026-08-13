@@ -1,4 +1,4 @@
-# README 1: Arduino Master-Slave Sensor Monitoring System
+# Arduino Master-Slave Sensor Monitoring System
 
 ## Project Overview
 This project involves designing a master-slave microcontroller system using [Tinkercad](https://www.tinkercad.com/). The system utilizes two Arduino boards to monitor environmental conditions and control physical outputs based on a predefined state machine. 
