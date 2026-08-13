@@ -55,3 +55,8 @@ The system must operate strictly based on the following states and conditions:
 *   **Action:** The Piezo buzzer sounds continuously.
 *   **LCD Output:** `"MULTIPLE PROBLEMS DETECTED"`
 *   **Resolution:** Automatically resolves to the appropriate state if the sensor readings change.
+
+
+## Submission Guidelines
+* Submit a .txt file with a link to the tinkercad task as a comment in your code.
+* Follow the main Induction Repo's submission guidelines.
