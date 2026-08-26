@@ -20,7 +20,10 @@ Before beginning, please review the following tutorials on Arduino basics and ci
     *   LCD Screen
     *   IR Sensor and Remote
  
-## Addendum(26/8), please use a 1Kohm Resister as your gas sensor pulldown resistor.
+## Addendum(26/8), 
+- please use a 1Kohm Resister as your gas sensor pulldown resistor.
+- You must use I2C to make the Arduino's communicate
+- You may use a normal screen or an I2C screen, however using an I2C screen would be awarded extra points if BOTH the other code and the screen work properly. 
 
 ## System Logic: State Machine
 The system must operate strictly based on the following states and conditions:
