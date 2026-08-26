@@ -36,7 +36,7 @@ The system must operate strictly based on the following states and conditions:
 *   **Controls:** The user can press a button on the IR remote to toggle the LCD display between showing ambient light levels and gas/air purity percentages.
 
 ### State 2: Gas Alert
-*   **Trigger:** Gas sensor reads >130 units of volatile compounds.
+*   **Trigger:** Gas sensor reads **>180** units of volatile compounds.
 *   **Action:** Overrides standard LCD telemetry. 
 *   **LCD Output:** `"TOXIC PURGE"`
 *   **Resolution:** The system stays in this state until gas levels drop below 130 units, returning automatically to State 1.
@@ -62,3 +62,7 @@ The system must operate strictly based on the following states and conditions:
 ## Submission Guidelines
 * Submit a .txt file with a link to the tinkercad task as a comment in your code.
 * Follow the main Induction Repo's submission guidelines.
+
+## Changelog
+- Added pulldown resistor reccomendations
+- gas sensor threshold changed to 180 instead of 130
