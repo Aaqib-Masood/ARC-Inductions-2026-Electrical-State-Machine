@@ -20,7 +20,7 @@ Before beginning, please review the following tutorials on Arduino basics and ci
     *   LCD Screen
     *   IR Sensor and Remote
  
-##Addendum(26/8), please use a 1Kohm Resister as your gas sensor pulldown resistor.
+## Addendum(26/8), please use a 1Kohm Resister as your gas sensor pulldown resistor.
 
 ## System Logic: State Machine
 The system must operate strictly based on the following states and conditions:
